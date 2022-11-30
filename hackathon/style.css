@@ -1,0 +1,19 @@
+
+*{
+  font-family: "Poppins", sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+#canvas { border: 1px solid black;}
+canvas {
+    border:1px solid #d3d3d3;
+}
+boutons {
+  display: flex ;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

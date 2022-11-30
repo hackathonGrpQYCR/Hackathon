@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="/script.js"></script>
+</head>
+
+<body onload='draw()'>
+  <div id=container>
+    <canvas id='canvas' width='500' height='500' onclick="showCoords(event)"></canvas>
+  </div>
+
+  <p id='showCoords'></p>
+  <div id="boutons">
+  <button onclick="alert('ajout')">
+    <span> Ajout</span> 
+   </button>
+  <button onclick="alert('deplacement')">Déplacement</button>
+  <button onclick="alert('selection')">Selectioner</button>
+  <button onclick="alert('sortir')">Sortir</button>
+  <button onclick="alert('chauffe')">Chauffer</button>
+
+</div> 
+
+
+<input type="number" placeholder="Entrez une valeur ici" id="int" max="9" min="0">
+  <input type="number" placeholder="Entrez une valeur ici" id="in" max="9"min="0">
+  <button type="button" onclick="getValue();">Valider</button>
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>
